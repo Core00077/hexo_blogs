@@ -36,7 +36,7 @@ external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
-relative_link: false
+relative_link: false/项目记录/2018/01/书蕴——基于书评的人工智能推荐系统/
 future: false
 highlight:
   enable: true
@@ -91,7 +91,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: [git@corechan.cn:hexo_blogs.git,git@coreja.com:hexo_blogs.git,git@github.com:Core00077/core00077.github.io.git]
+  repository: [git@corechan.cn:hexo_blogs.git,git@coreja.com:hexo_blogs.git,git@gitee.com:core00077/core00077.git,git@github.com:Core00077/core00077.github.io.git]
   branch: master
 
 symbols_count_time:
