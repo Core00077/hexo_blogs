@@ -36,7 +36,7 @@ external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
-relative_link: false/项目记录/2018/01/书蕴——基于书评的人工智能推荐系统/
+relative_link: false
 future: false
 highlight:
   enable: true
