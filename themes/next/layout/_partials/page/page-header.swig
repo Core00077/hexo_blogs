@@ -4,12 +4,12 @@
   {{- page.title -}}
   {% include '../post-edit.swig' %}
 </{% if theme.seo %}h2{% else %}h1{% endif %}>
-
-<div class="post-meta">
-  {% if page.description %}
-    <div class="post-description">{{ page.description }}</div>
-  {% endif %}
-  {% include 'breadcrumb.swig' %}
-</div>
-
+{% if page.title %}
+  <div class="post-meta">
+    {% if page.description %}
+      <div class="post-description">{{ page.description }}</div>
+    {% endif %}
+    {% include 'breadcrumb.swig' %}
+  </div>
+{% endif %}
 </header>

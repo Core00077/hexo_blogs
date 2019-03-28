@@ -442,7 +442,7 @@ tagcloud:
   enable: true
 
   # All values below are same as default, change them by yourself
-  min: 15 # min font size in px
+  min: 25 # min font size in px
   max: 48 # max font size in px
   start: "rgba(0,86,216,0.2)" # start color (hex, rgba, hsla or color keywords)
   end: "rgba(0,86,216,0.7)" # end color (hex, rgba, hsla or color keywords)

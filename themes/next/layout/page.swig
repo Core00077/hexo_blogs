@@ -32,6 +32,8 @@
         {# tagcloud page support #}
         {% if page.type === 'tags' %}
           <div class="tag-cloud">
+            {# tagcanvas plugin 球型云标签 #}
+            {% include '_partials/plugin/tagcanvas.swig' %}
             <div class="tag-cloud-title">
               {% set visibleTags = 0 %}
               {% for tag in site.tags %}
