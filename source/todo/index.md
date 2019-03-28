@@ -3,7 +3,7 @@ title: TODO List（填坑列表）
 date: 2019-03-27 22:09:11
 ---
 
-本TODO List倒序安排，会把未完成的保留并顶上去
+{% centerquote %}美好的一周，从TODO开始{% endcenterquote %}
 
 ---
 
