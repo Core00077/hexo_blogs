@@ -68,6 +68,8 @@
           </div>
         {% elif page.type === 'schedule' %}
           {% include 'schedule.swig' %}
+        {% elif page.type === 'todo' %}
+          {% include 'todo.swig' %}
         {% else %}
           {{ page.content }}
         {% endif %}

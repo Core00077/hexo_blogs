@@ -1,6 +1,7 @@
 ---
 title: TODO List（填坑列表）
 date: 2019-03-27 22:09:11
+type: todo
 ---
 
 {% centerquote %}美好的一周，从TODO开始{% endcenterquote %}
@@ -26,6 +27,4 @@ date: 2019-03-27 22:09:11
 
 
 
-
-<style>li{list-style: none!important}</style>
 

@@ -86,3 +86,18 @@ hr{
 .post-body figure figcaption{
     display: none;
 }
+#todo li {
+    line-height: 2;
+
+}
+#todo .md-task-list-item { position: relative; list-style-type: none; }
+#todo .task-list-item.md-task-list-item { padding-left: 0px; }
+#todo .md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+
+#todo .task-list-item input { width: 1.25rem; height: 1.25rem; display: block; -webkit-appearance: initial; left: -18px; }
+#todo .task-list-item input:focus { outline: none; box-shadow: none; }
+#todo .task-list-item input::before { border: 1px solid #888888; border-radius: 1.2rem; width: 1.2rem; height: 1.2rem; background: transparent; content: " "; transition: background-color 200ms ease-in-out; display: block; }
+#todo .task-list-item input:checked::before, .task-list-item input[checked]::before { background: rgb(212, 212, 212); border-width: 1px; display: inline-block; transition: background-color 200ms ease-in-out; }
+#todo .task-list-item input:checked::after, .task-list-item input[checked]::after { opacity: 1; }
+#todo .task-list-item input::after { transition: opacity 0.05s ease-in-out; transform: rotate(-45deg); position: absolute; top: 0.325rem; left: 0.28125rem; width: 0.6375rem; height: 0.4rem; border-width: 0px 0px 2px 2px; border-bottom-style: solid; border-left-style: solid; border-bottom-color: rgb(102, 102, 102); border-left-color: rgb(102, 102, 102); border-image: initial; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; content: " "; opacity: 0; }
+#todo .task-list-done { text-decoration: line-through; color: #888888; }

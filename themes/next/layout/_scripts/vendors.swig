@@ -66,6 +66,8 @@
   {% set js_vendors.reading_progress = 'reading_progress/reading_progress.js' %}
 {% endif %}
 
+{% set js_vendors.todo = 'todo/todo.js' %}
+
 {% for name, internal in js_vendors %}
   {% set internal_script = url_for(theme.vendors._internal + '/' + internal) %}
   <script src="{{ theme.vendors[name] | default(internal_script) }}"></script>
