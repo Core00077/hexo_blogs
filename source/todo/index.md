@@ -28,7 +28,7 @@ type: todo
 - [x] disqusJS
 - [ ] https教程博客
 - [x] todo页面
-- [ ] 面试总结
+- [x] 面试总结
 
 
 
