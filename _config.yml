@@ -4,9 +4,9 @@
 
 # Site
 title: 诗与代码
-subtitle: 一个写技术博客和闲聊杂谈的地方。
+subtitle: 陈小睿同学的技术博客和闲聊杂谈。
 description: '野心一大，世界就小。'
-keywords: 技术博客, 人工智能, Linux, 计算机科学, CS, 计算机视觉, CV, 自然语言处理, NLP
+keywords: 陈小睿,技术博客, 人工智能, Linux, 计算机科学, CS, 计算机视觉, CV, 自然语言处理, NLP
 author: 陈小睿
 language: zh-CN
 timezone:
@@ -76,8 +76,6 @@ archive_generator:
 
 tag_generator:
   per_page: 0  #值为0表示不分页，按需填写
-  yearly: true  #是否按年生成归档
-  monthly: true  #为了加快生成速度，按月归档就不要了
 
 category_generator:
   per_page: 0  #值为0表示不分页，按需填写
