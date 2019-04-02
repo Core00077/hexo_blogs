@@ -296,7 +296,9 @@ $\prod\limits^n_{i=1}\cfrac{i}{(i+1)}$
 
 希腊字母什么的我就不摘上来了，给参考链接比较方便（用的不多主要是）
 
-[MarkDown 中使用 LaTeX 数学式-希腊字母](https://www.cnblogs.com/nowgood/p/Latexstart.html#_nav_12)^[5]^
+[MarkDown 中使用 LaTeX 数学式-希腊字母](https://www.cnblogs.com/nowgood/p/Latexstart.html#_nav_12)[^希腊字母]
+
+[^希腊字母]: [MarkDown 中使用 LaTeX 数学式-希腊字母](https://www.cnblogs.com/nowgood/p/Latexstart.html#_nav_12)
 
 ## 集合
 

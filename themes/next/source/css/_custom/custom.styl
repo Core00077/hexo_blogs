@@ -89,10 +89,7 @@ hr{
 .post-body figure figcaption{
     display: none;
 }
-#todo li {
-    line-height: 2;
-
-}
+#todo li { line-height: 2; }
 #todo .md-task-list-item { position: relative; list-style-type: none; }
 #todo .task-list-item.md-task-list-item { padding-left: 0px; }
 #todo .md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
@@ -104,3 +101,17 @@ hr{
 #todo .task-list-item input:checked::after, .task-list-item input[checked]::after { opacity: 1; }
 #todo .task-list-item input::after { transition: opacity 0.05s ease-in-out; transform: rotate(-45deg); position: absolute; top: 0.325rem; left: 0.28125rem; width: 0.6375rem; height: 0.4rem; border-width: 0px 0px 2px 2px; border-bottom-style: solid; border-left-style: solid; border-bottom-color: rgb(102, 102, 102); border-left-color: rgb(102, 102, 102); border-image: initial; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; content: " "; opacity: 0; }
 #todo .task-list-done { text-decoration: line-through; color: #888888; }
+
+.footnotes ol {
+  counter-reset: list;
+}
+.footnotes ol li {
+  list-style-type: none;
+  position: relative;
+}
+.footnotes ol li:before {
+  counter-increment: list;
+  content: "[" counter(list,decimal) "] ";
+  position: absolute;
+  left: -25px;
+}

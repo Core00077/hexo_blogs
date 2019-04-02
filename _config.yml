@@ -110,3 +110,19 @@ githubEmojis:
   inject: true
   styles:
   customEmojis:
+  
+pandoc:
+  # other options
+  filters:
+    - node_modules/hexo-pandoc-tippy/pandocFilter.py
+  extra:
+    - toc:
+
+tippy:
+  theme_file: themes/next/source/css/_custom/tippy.css   # css file containing the theme, relative to blog root directory
+  theme_name: core
+  interactive: true
+  arrow: true
+  animateFill: false
+  animation: scale
+  
