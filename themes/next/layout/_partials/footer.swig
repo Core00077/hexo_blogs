@@ -19,7 +19,7 @@
       <span class="post-meta-item-text">{{ __('symbols_count_time.count_total') + __('symbol.colon') }}</span>
     {% endif %}
     <span title="{{ __('symbols_count_time.count_total') }}">{#
-    #}{{ symbolsCountTotal(site) }}{#
+    #}{{ totalcount(site) }}{#
   #}</span>
   {% endif %}
 
