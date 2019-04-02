@@ -124,5 +124,5 @@ tippy:
   interactive: true
   arrow: true
   animateFill: false
-  animation: scale
+  animation: shift-away
   

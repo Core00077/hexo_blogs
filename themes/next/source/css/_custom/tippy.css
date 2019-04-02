@@ -2,9 +2,6 @@
   background-color: rgba(0, 86, 216, 0.6);
   color: #e2e2e2;
 }
-.tippy-tooltip.hint-theme .tippy-backdrop {
-  background-color: rgba(0, 86, 216, 0.6);
-}
 /* content */
 .tippy-tooltip.core-theme p {
   margin: 0;
@@ -12,10 +9,11 @@
 }
 .tippy-tooltip.core-theme p a {
   color: #e2e2e2;
+  border-bottom-color: #e2e2e2;
 }
 .tippy-tooltip.core-theme p a:hover{
   color: #fff;
-  border-bottom-color: #e2e2e2;
+  border-bottom-color: #fff;
 }
 
 /* arrow */
