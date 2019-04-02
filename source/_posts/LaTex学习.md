@@ -17,7 +17,7 @@ tags: [latex,markdown]
 
 # 理解和运用
 
-以下内容主要参考[Markdown中写数学公式](http://jzqt.github.io/2015/06/30/Markdown%E4%B8%AD%E5%86%99%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/)[^2]和[Markdown下LaTeX公式、编号、对齐](https://www.zybuluo.com/fyywy520/note/82980)[^3]以及[CSDN Markdown 公式指导手册](https://blog.csdn.net/DERRANTCM/article/details/51628349)[^4]
+以下内容主要参考*Markdown中写数学公式*[^2]和*Markdown下LaTeX公式、编号、对齐*[^3]以及*CSDN Markdown 公式指导手册*[^4]
 
 ## 块级(block)公式/行内(inline)公式
 
@@ -296,7 +296,7 @@ $\prod\limits^n_{i=1}\cfrac{i}{(i+1)}$
 
 希腊字母什么的我就不摘上来了，给参考链接比较方便（用的不多主要是）
 
-[MarkDown 中使用 LaTeX 数学式-希腊字母](https://www.cnblogs.com/nowgood/p/Latexstart.html#_nav_12)[^希腊字母]
+MarkDown 中使用 LaTeX 数学式-希腊字母[^希腊字母]
 
 [^希腊字母]: [MarkDown 中使用 LaTeX 数学式-希腊字母](https://www.cnblogs.com/nowgood/p/Latexstart.html#_nav_12)
 
