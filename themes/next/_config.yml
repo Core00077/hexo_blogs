@@ -680,7 +680,7 @@ gitalk:
 
 # AddThis Share, See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
-#add_this_id:
+add_this_id: ra-5ca3597dc9372292
 
 # Likely Share
 # See: https://ilyabirman.net/projects/likely/
@@ -720,7 +720,7 @@ needmoreshare2:
   float:
     enable: false
     options:
-      iconStyle: box
+      iconStyle: default
       boxForm: horizontal
       position: middleRight
       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
