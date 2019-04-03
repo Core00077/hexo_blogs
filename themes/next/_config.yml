@@ -627,15 +627,16 @@ valine:
   enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
   appid: J5NheeiFdgMPh30PNyG2GMFh-gzGzoHsz # your leancloud application appid
   appkey: NnMf3M7jbcgtGclQE9UtMsWk # your leancloud application appkey
-  notify: true # mail notifier, See: https://github.com/xCss/Valine/wiki
-  verify: true # Verification code
-  placeholder: 来交♂流一下8？ # comment box placeholder
-  avatar: mm # gravatar style
+  notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
+  verify: false # Verification code
+  placeholder: 来交♂流一下8？支持markdown语法喔？真的不来试♂试吗？ # comment box placeholder
+  avatar: retro # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
-  language: zh-Hans # language, available values: en, zh-cn
+  language: zh-cn # language, available values: en, zh-cn
   visitor: true # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
-  comment_count: false # if false, comment count will only be displayed in post page, not in home page
+  comment_count: true # if false, comment count will only be displayed in post page, not in home page
+  recordIP: true
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
@@ -803,7 +804,7 @@ busuanzi_count:
   total_visitors_icon: user
   total_views: true
   total_views_icon: eye
-  post_views: true
+  post_views: false
   post_views_icon: eye
 
 # Tencent analytics ID
