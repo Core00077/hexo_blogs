@@ -604,7 +604,7 @@ disqus:
 # Alternative Disqus - Render comment component using Disqus API
 # Demo: https://suka.js.org/DisqusJS/
 disqusjs:
-  enable: true
+  enable: false
   # API Endpoint of Disqus API (https://disqus.com/api/)
   # leave api empty if you are able to connect to Disqus API
   # otherwise you need a reverse proxy for Disqus API
@@ -624,18 +624,18 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # More info available at https://valine.js.org
 valine:
-  enable: false # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
-  notify: false # mail notifier, See: https://github.com/xCss/Valine/wiki
-  verify: false # Verification code
-  placeholder: Just go go # comment box placeholder
+  enable: true # When enable is set to be true, leancloud_visitors is recommended to be closed for the re-initialization problem within different leancloud adk version.
+  appid: J5NheeiFdgMPh30PNyG2GMFh-gzGzoHsz # your leancloud application appid
+  appkey: NnMf3M7jbcgtGclQE9UtMsWk # your leancloud application appkey
+  notify: true # mail notifier, See: https://github.com/xCss/Valine/wiki
+  verify: true # Verification code
+  placeholder: 来交♂流一下8？ # comment box placeholder
   avatar: mm # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
   language: zh-Hans # language, available values: en, zh-cn
-  visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
-  comment_count: true # if false, comment count will only be displayed in post page, not in home page
+  visitor: true # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
+  comment_count: false # if false, comment count will only be displayed in post page, not in home page
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
@@ -680,7 +680,7 @@ gitalk:
 
 # AddThis Share, See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
-add_this_id: ra-5ca3597dc9372292
+add_this_id: 
 
 # Likely Share
 # See: https://ilyabirman.net/projects/likely/
