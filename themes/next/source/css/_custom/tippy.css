@@ -33,3 +33,6 @@ a.footnote-ref > sup:before {
 a.footnote-ref > sup:after {
   content: "]"
 }
+.tippy-popper[data-html]{
+  max-width: calc(60% - 20px);
+}
