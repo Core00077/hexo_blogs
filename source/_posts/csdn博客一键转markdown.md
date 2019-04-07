@@ -1,5 +1,5 @@
 ---
-title: csdn博客一键转markdown,还附带hexo头(yaml matter)！
+title: csdn博客一键转markdown,还附带hexo头(yaml front matter)！
 mathjax: false
 date: 2019-04-06 21:40:07
 tags: [csdn,markdown,hexo]
@@ -14,6 +14,8 @@ csdn有些地方是真的难用，最近越来越难用了。之前吞了我的�
 
 更多和搭建hexo博客相关的内容，请在左侧导航栏中的`标签`或文章底部，点击`hexo`标签即可看到所有相关文章。 :smile: 感谢阅读。
 
+<!-- more -->
+
 ## 此博客作用
 
 帮助快速将之前写在csdn上的所有**markdown**格式的blog以md格式导出。
@@ -21,8 +23,6 @@ csdn有些地方是真的难用，最近越来越难用了。之前吞了我的�
 这是我在github上找到的一个开发者写的爬虫，原理上是用自己的cookie信息去csdn上把自己的文章爬下来。因为作者写的比较久远，csdn上的接口已经更换了，我做了一些调整并基本可以使用，pr过去了，已经被作者merge到原仓库[^merge]。
 
 [^merge]: [修复了一些csdn更改了的接口和html元素，亲测可以正常使用](<https://github.com/secsilm/csdn2md/pull/1>)
-
-<!-- more -->
 
 引用一下原作者的readme以及作者仓库[^作者仓库]
 
