@@ -1,6 +1,6 @@
 ---
 title: 物体检测算法YOLOv3的改进——论文翻译
-mathjax: false
+mathjax: true
 date: 2019-04-11 14:20:04
 tags: [毕业设计,yolo,yolov3,目标检测]
 categories: 课业文档
