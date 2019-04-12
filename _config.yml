@@ -108,7 +108,8 @@ githubEmojis:
   enable: true
   className: github-emoji
   inject: true
-  styles:
+  styles: 
+    color: inherit!important
   customEmojis:
   
 pandoc:
