@@ -678,7 +678,8 @@ gitalk:
 # Warning: Baidu Share does not support https.
 #baidushare:
 ##  type: button
-
+shareJS:
+  enable: true
 # AddThis Share, See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
 add_this_id: 

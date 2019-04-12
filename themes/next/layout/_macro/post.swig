@@ -338,6 +338,17 @@
       </div>
     {% endif %}
 
+    {% if theme.shareJS.enable and not is_index %}
+      <div>
+        <hr/>
+        <h1>欢迎分享</h1>
+        <div class="social-share"></div>
+        <!--  css & js -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
+        <script src="/js/custom/social-share.min.js"></script>
+      </div>
+    {% endif %}
+
     {% if theme.related_posts.enable and (theme.related_posts.display_in_home or not is_index) %}
       {% include '../_partials/post/post-related.swig' with { post: post } %}
     {% endif %}
