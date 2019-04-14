@@ -71,11 +71,11 @@ categories: 总结规划
 
 [^tippy-issue]: <https://github.com/RichardYan314/hexo-pandoc-tippy/issues/1>
 
-哈哈刚刚写着博客的时候顺手就又给作者提了个issue[^new function]，这次是希望提供新功能。
+哈哈刚刚写着博客的时候顺手就又给作者提了个issue[^new_function]，这次是希望提供新功能。
 
 如果后面我不忙的话我自己来写吧嘿嘿。
 
-[^new function]: [新功能]注脚以非数字形式展示](<https://github.com/RichardYan314/hexo-pandoc-tippy/issues/2>)
+[^new_function]: [新功能]注脚以非数字形式展示](<https://github.com/RichardYan314/hexo-pandoc-tippy/issues/2>)
 
 （hexo-pandoc-tippy作者Richard：mmp我一共就写了这么个插件，两个issue还都是你提的，找茬？）
 
@@ -167,6 +167,6 @@ valine这是个大项目，利用leanCloud提供免费云服务实现的静态�
 
 # 总结
 
-总之~~gayhub~~ github给我们提供了一个和大佬们交流的平台，在上面能找到很多需要的轮子，很多东西都非常具有实用性，尤其是自己贡献的代码被作者采用的感觉——巨爽！
+总之~~gayhub~~github给我们提供了一个和大佬们交流的平台，在上面能找到很多需要的轮子，很多东西都非常具有实用性，尤其是自己贡献的代码被作者采用的感觉——巨爽！
 
 就这样了。晚安。
