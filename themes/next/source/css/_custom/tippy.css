@@ -1,10 +1,12 @@
 .tippy-tooltip.core-theme {
-  background-color: rgba(0, 86, 216, 0.6);
+  background-color: rgba(0, 86, 216, 0.75);
   color: #e2e2e2;
 }
 /* content */
 .tippy-tooltip.core-theme p {
   margin: 0;
+  text-align: left;
+  padding: 0 10px;
 }
 .tippy-tooltip.core-theme p a {
   color: #e2e2e2;
@@ -17,11 +19,11 @@
 
 /* arrow */
 .tippy-popper[x-placement^='top'] .tippy-tooltip.core-theme .tippy-arrow {
-  border-top-color: rgba(0, 86, 216, 0.6);
+  border-top-color: rgba(0, 86, 216, 0.75);
   bottom: -10.5px;
 }
 .tippy-popper[x-placement^='bottom'] .tippy-tooltip.core-theme .tippy-arrow {
-  border-bottom-color: rgba(0, 86, 216, 0.6);
+  border-bottom-color: rgba(0, 86, 216, 0.75);
   top: -10.5px;
 }
 
