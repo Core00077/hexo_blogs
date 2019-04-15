@@ -1,0 +1,8 @@
+# hexo robots.txt
+User-agent: *
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /lib/
+
+Sitemap: https://coreja.com/sitemap.xml

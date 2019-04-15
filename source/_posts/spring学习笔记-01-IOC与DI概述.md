@@ -1,5 +1,5 @@
 ---
-title: spring学习笔记-01-IOC&DI概述
+title: spring学习笔记-01-IOC与DI概述
 date: 2018-02-09 15:46:19
 tags: [spring,IOC,DI,AOP]
 categories: 学习笔记
