@@ -8,7 +8,7 @@
   "dependencies": {
     "eslint": "^5.16.0",
     "hexo": "^3.8.0",
-    "hexo-asset-image": "0.0.3",
+    "hexo-asset-image-fixed": "0.0.5",
     "hexo-deployer-git": "^1.0.0",
     "hexo-filter-flowchart": "^1.0.4",
     "hexo-filter-github-emojis": "^2.0.1",
