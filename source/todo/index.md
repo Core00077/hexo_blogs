@@ -4,7 +4,7 @@ date: 2019-03-27 22:09:11
 type: todo
 ---
 
-{% centerquote %}美好的一周，从TODO开始{% endcenterquote %}
+{% cq %}美好的一周，从TODO开始{% endcq %}
 
 ---
 
