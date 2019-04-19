@@ -15,7 +15,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://coreja.com
 root: /
-permalink: :category/:year/:month/:title/
+permalink: :category/:year/:month/:id/
 permalink_defaults:
 
 # Directory
@@ -56,6 +56,12 @@ index_generator:
 # Category & Tag
 default_category: 未分类
 category_map: 
+  学习笔记: StudyNotes
+  总结规划: SummaryAndPlans
+  瞎折腾的日常: DailyHack
+  读书感悟: ReadingThoughts
+  课业文档: Schoolwork
+  项目记录: ProjectRecords
 tag_map:
 
 # Date / Time format
