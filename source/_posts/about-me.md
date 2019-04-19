@@ -3,8 +3,7 @@ title: 关于我
 mathjax: false
 date: 2019-03-28 03:23:45
 tags: [关于我]
-categories: [总结规划]
-description: 关于我部分的存档～
+categories: 总结规划
 ---
 
 # 关于我

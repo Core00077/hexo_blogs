@@ -2,8 +2,8 @@
 title: Linux截屏神器——Flameshot
 mathjax: false
 date: 2019-04-18 19:35:38
-tags:
-categories:
+tags: [安利,linux,flameshot,截屏]
+categories: 瞎折腾的日常
 ---
 
 # 写在前面
