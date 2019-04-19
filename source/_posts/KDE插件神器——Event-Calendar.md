@@ -56,7 +56,7 @@ date: 2019-04-17 18:35:51
 
 安装很简单啦，KDE平台小伙伴直接去搜`Event Calendar`或者访问<https://store.kde.org/p/998901/>就ok啦。
 
-不过那边大概率还没更新中文版的，推荐直接github上安装。（不过我的PR现在还暂时没过，应该是仓库维护者还没上线）
+不过那边大概率还没更新中文版的，推荐直接github上安装。（~~不过我的PR现在还暂时没过，应该是仓库维护者还没上线~~，github上pr已经通过啦，从github上就能拿到最新的了～）
 
 ```shell
 git clone https://github.com/Zren/plasma-applet-eventcalendar.git
