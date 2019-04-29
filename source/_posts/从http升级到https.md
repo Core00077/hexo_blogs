@@ -94,11 +94,11 @@ https是个好东西，而且写在基本上都是免费申请证书了，之前
 
 ```nginx
 server {
-		listen         443 ssl; # 这里后面记得要加ssl，腾讯云文档里没有加，我当时https访问不了似乎是因为这个（没有查资料，有待考证）。
-		server_name    corechan.cn;
-		add_header		Strict-Transport-Security "max-age=31536000" always; # 这个是用来防止HSTS攻击的，具体地看下面
-    	root			/var/www/hexo_blogs;# 你站点的根目录
-    	[...]
+        listen         443 ssl; # 这里后面记得要加ssl，腾讯云文档里没有加，我当时https访问不了似乎是因为这个（没有查资料，有待考证）。
+        server_name    corechan.cn;
+        add_header		Strict-Transport-Security "max-age=31536000" always; # 这个是用来防止HSTS攻击的，具体地看下面
+        root			/var/www/hexo_blogs;# 你站点的根目录
+        [...]
 }
 ```
 
