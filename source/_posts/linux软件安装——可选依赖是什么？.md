@@ -2,8 +2,8 @@
 title: linux软件安装——可选依赖是什么？记一次opencv needed by xxx, not found报错问题的体会
 mathjax: false
 date: 2019-05-03 23:23:04
-tags:
-categories:
+tags: [linux,opencv,可选依赖,包管理]
+categories: 瞎折腾的日常
 ---
 
 # 写在前面
@@ -76,7 +76,7 @@ aur上也有说明：
 
 # 一点迷思
 
-果然linux:+1:，学会查文档真的很重要。话说回来，当时决定彻底放弃win不就是因为VS给预装了太多我基本上没可能用到的组件，以至于**体积太大**，显得臃肿么？
+果然linux:thumbsup: ，学会查文档真的很重要。话说回来，当时决定彻底放弃win不就是因为VS给预装了太多我基本上没可能用到的组件，以至于**体积太大**，显得臃肿么？
 
 后来在win平台装Clion、minGW，不就是为了缩减这些的开支么？
 
