@@ -1,17 +1,17 @@
 ---
-title: LaTex学习
+title: LaTeX学习
 date: 2019-03-12 20:27:57
 categories: 学习笔记
 mathjax: true
-tags: [latex,markdown]
+tags: [LaTeX,markdown]
 ---
 # 前言
 
-偶然想起来已经说了很久要学LaTex然而一直没什么动静了，被问到`如何在上标里放下标`，本以为是`x^R~n~^`结果在csdn的markdown里打出来是x^R~n~^(更新：额pandoc渲染可真强，总之csdn上不支持嵌套啦)
+偶然想起来已经说了很久要学LaTeX然而一直没什么动静了，被问到`如何在上标里放下标`，本以为是`x^R~n~^`结果在csdn的markdown里打出来是x^R~n~^(更新：额pandoc渲染可真强，总之csdn上不支持嵌套啦)
 
 淦，markdown的上下标似乎不能嵌套。
 
-好的，那么趁机学学LaTex好了。先摆出效果图：$x^{R_n}$
+好的，那么趁机学学LaTeX好了。先摆出效果图：$x^{R_n}$
 
 <!--more-->
 
@@ -21,7 +21,7 @@ tags: [latex,markdown]
 
 ## 块级(block)公式/行内(inline)公式
 
-LaTex都会用\$包裹起来。比如`$$……$$`和`$……$`，区别在于\$\$是块级公式，会独占一行，例如
+LaTeX都会用\$包裹起来。比如`$$……$$`和`$……$`，区别在于\$\$是块级公式，会独占一行，例如
 
 $$
 E=mc^2
@@ -38,7 +38,7 @@ PS：这里额外提醒使用typora的小伙伴，你们会发现当你们键入
 
 试了便明白，对于typora来说会有这样的公式编辑界面（还会实时提示公式错误）
 
-![typora中的效果](LaTex学习/1552050995822.png)
+![typora中的效果](LaTeX学习/1552050995822.png)
 
 本质上说，typora只是**强制要求\$\$之间必须以单一换行符**隔开，因为\$\$语义上本身便是换行公式，这样保证了代码的可读性（md本身算代码这没毛病吧？）
 
@@ -88,7 +88,7 @@ $\lim\limits_{x\to c}f(x)​$
 
 $\sum\limits_{i=1}^{n}a_i+b_i​$
 
-以上公式如果使用块级公式，则不需要加`\limits`，LaTex会将上下标自动调整到正上方正下方
+以上公式如果使用块级公式，则不需要加`\limits`，LaTeX会将上下标自动调整到正上方正下方
 $$
 \lim\limits_{x\to c}f(x)
 $$
@@ -101,7 +101,7 @@ $$
 
 ## 括号、绝对值和范式、向上向下取整
 
-`()`,`[]`都是表示自己，但是`{}`在LaTex里有特殊作用，用`\lbrace`和`\rbrace`表示。`\langle`对应$\langle$ ，`\rangle`对应$\rangle$。
+`()`,`[]`都是表示自己，但是`{}`在LaTeX里有特殊作用，用`\lbrace`和`\rbrace`表示。`\langle`对应$\langle$ ，`\rangle`对应$\rangle$。
 
 绝对值的竖线还是`|`，不过范式的双竖线是`\|`。
 
@@ -241,7 +241,7 @@ $\prod\limits^n_{i=1}\cfrac{i}{(i+1)}$
 
 主要参考了某个大佬的文章[^5]
 
-|                      | 符号              | LaTex             |
+|                      | 符号              | LaTeX             |
 | :------------------- | ----------------- | :---------------- |
 | 所有                 | $\forall$         | `\forall`         |
 | 存在                 | $\exists$         | `\exists`         |
@@ -385,7 +385,7 @@ y=ax+b
 \end{equation}
 $$
 
-这里要注意的是，在markdown下扩展的LaTex里，一处有`\begin{equation} ...\end{equation}`就相当于处处都有（即块级公式处处都会自动编号）
+这里要注意的是，在markdown下扩展的LaTeX里，一处有`\begin{equation} ...\end{equation}`就相当于处处都有（即块级公式处处都会自动编号）
 
 如果想要取消特定块级公式的编号，用`euqation*`
 
@@ -474,7 +474,7 @@ $$
 
 公式$\eqref{eq:test2}$则是有两个`&`，对应上面公式的两个`&`对齐，公式$\eqref{eq:test3}$只有一个`&`在最前面。
 
-![对齐方式](LaTex学习/1552220760528.png)
+![对齐方式](LaTeX学习/1552220760528.png)
 
 ### 单公式的换行与对齐
 
