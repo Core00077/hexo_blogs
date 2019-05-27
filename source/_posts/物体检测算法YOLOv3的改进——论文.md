@@ -18,6 +18,8 @@ Vehicles, people and traffic lights such traffic objects detection on images or 
 
 Key words: YOLOv3; feature fusion; convolutional neural network; object detection; real-time detection
 
+<!-- more -->
+
 # **绪论**
 
 ## **研究背景与意义**
