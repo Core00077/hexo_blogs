@@ -213,12 +213,13 @@ site_state: true
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
   GitHub: https://github.com/Core00077 || github
-  E-Mail: mailto:i@corechan.cn || envelope
+  E-Mail: mailto:i@coreja.com || envelope
   知乎: https://www.zhihu.com/people/Core00077/activities || thumbs-o-up
+  B站: https://space.bilibili.com/27454702 || tv
   #简历: http://corechan.cn || address-card
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
-  Twitter: https://twitter.com/Core00077 || twitter
+  #Twitter: https://twitter.com/Core00077 || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
   #StackOverflow: https://stackoverflow.com/yourname || stack-overflow
@@ -232,11 +233,14 @@ social_icons:
   transition: true
 # Blog rolls
 links_icon: link
-links_title: Links
+links_title: 传送门
 links_layout: block
 #links_layout: inline
 links:
   #Title: http://example.com
+  
+  Ewen-ZY拐叔博客: https://ewen-zy.github.io
+  某知名深度学习大佬Bboy: https://blog.csdn.net/weixin_43968778
 
 # Sidebar Avatar
 avatar:
