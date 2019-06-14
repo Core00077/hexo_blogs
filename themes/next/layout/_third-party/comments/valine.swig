@@ -29,4 +29,33 @@
     visitor: {{ theme.valine.visitor }},
     lang: '{{ theme.valine.language }}' || 'zh-cn'
   });
+  
+  $(".vmail").attr("type","text")
+  function tips(){
+    pattern=/^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
+    console.log($(".vmail").val())
+    if(!pattern.test($(".vmail").val())){
+      $(".vmail").attr("placeholder","请留下正确格式的邮箱")
+      $(".vmail").css("box-shadow", "rgba(255, 120, 120, 0.3) 0px 7px 5px -2px")
+      $(".vmail").css("border-bottom", "solid 1px rgba(255, 120, 120,0.75)")
+
+      $("#veditor").addClass("invalid")
+      $("#veditor").attr("placeholder","请留下正确格式的邮箱，以便收到回复哟～")
+      $("#veditor").attr("disabled","")
+      $(".vctrl").css("display","none")
+      $(".vsubmit").css("display","none")
+    }else{
+      $(".vmail").attr("placeholder","邮箱")
+      $(".vmail").removeAttr("style")
+
+
+      $("#veditor").removeClass("invalid")
+      $("#veditor").attr("placeholder","来交♂流一下8？支持markdown语法喔？")
+		  $("#veditor").removeAttr("disabled")
+		  $(".vctrl").css("display","")
+		  $(".vsubmit").css("display","")
+	  }
+  }
+  $(":input").filter(".vinput").on("input",tips)
+  $(":input").filter(".vinput").on("focus",tips)
 </script>
