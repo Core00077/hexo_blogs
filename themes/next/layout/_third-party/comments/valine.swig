@@ -33,7 +33,7 @@
   $(".vmail").attr("type","text")
   function tips(){
     pattern=/^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
-    console.log($(".vmail").val())
+    // console.log($(".vmail").val())
     if(!pattern.test($(".vmail").val())){
       $(".vmail").attr("placeholder","请留下正确格式的邮箱")
       $(".vmail").css("box-shadow", "rgba(255, 120, 120, 0.3) 0px 7px 5px -2px")
