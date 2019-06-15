@@ -95,7 +95,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: [git@corechan.cn:hexo_blogs.git,git@coreja.com:hexo_blogs.git,git@gitee.com:core00077/core00077.git,git@github.com:Core00077/core00077.github.io.git]
+  repository: [git@coreja.com:hexo_blogs.git,git@gitee.com:core00077/core00077.git,git@github.com:Core00077/core00077.github.io.git]
   branch: master
 
 symbols_count_time:
