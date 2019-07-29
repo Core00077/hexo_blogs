@@ -8,7 +8,7 @@ tags: [grub, rEFInd, 引导, 双系统, bilibili]
 
 # 写在前面
 
-因为大家似乎对双系统特别感兴趣，所以先做一期这个视频好啦～视频链接戳[这里](coreja.com)
+因为大家似乎对双系统特别感兴趣，所以先做一期这个视频好啦～视频链接戳[这里](https://www.bilibili.com/video/av61364115/)
 
 ![先上图再说](grub和rEFInd——配置你的双系统/rEFInd引导界面.png)
 
@@ -26,13 +26,17 @@ tags: [grub, rEFInd, 引导, 双系统, bilibili]
 
 视频主要讲了一下内容：
 
-- [x] 简述视频和介绍要讲的芝士点
-- [x] 系统引导背景资料
-- [x] grub相关知识
+- [x] 简述视频和介绍要讲的芝士点 0:00
+- [x] 系统引导背景资料 4:30
+- [x] 引导分区详细内容 14:53
   - [x] rEFInd与grub
   - [x] windows引导
-- [x] rEFInd配置
-  - [x] 个人配置链接
+- [x] rEFInd安装与配置 30:04
+  - [x] 安装 30:04
+  - [x] efibootmgr 42:20
+  - [x] 配置 45:40
+  - [x] grub设置timeout 59:43
+- [x] 个人配置链接以及下期预告 1:06:22
 
 话说cpu渲染可是真的不够给力
 
@@ -95,3 +99,4 @@ tags: [grub, rEFInd, 引导, 双系统, bilibili]
 原版rEFInd下载：[点我](refind-bin-0.11.4.zip)
 
 配置下载：[click me](refind-theme.zip)
+
