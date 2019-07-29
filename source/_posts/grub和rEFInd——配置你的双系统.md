@@ -99,4 +99,3 @@ tags: [grub, rEFInd, 引导, 双系统, bilibili]
 原版rEFInd下载：[点我](refind-bin-0.11.4.zip)
 
 配置下载：[click me](refind-theme.zip)
-
