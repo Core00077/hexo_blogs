@@ -10,13 +10,13 @@ tags: [grub, rEFInd, 引导, 双系统, bilibili]
 
 因为大家似乎对双系统特别感兴趣，所以先做一期这个视频好啦～视频链接戳[这里](https://www.bilibili.com/video/av61364115/)
 
-![先上图再说](grub和rEFInd——配置你的双系统/rEFInd引导界面.png)
+![先上图再说](grub&rEFInd_config_your_hybrid_system/rEFInd引导界面.png)
 
-![b站小伙伴投票](grub和rEFInd——配置你的双系统/b站小伙伴投票.png)
+![b站小伙伴投票](grub&rEFInd_config_your_hybrid_system/b站小伙伴投票.png)
 
 顺便庆祝一下我的b站播放量过万啦嘻嘻嘻
 
-![播放量破万留恋](grub和rEFInd——配置你的双系统/播放量破万留恋.png)
+![播放量破万留恋](grub&rEFInd_config_your_hybrid_system/播放量破万留恋.png)
 
 <!-- more -->
 
@@ -40,7 +40,7 @@ tags: [grub, rEFInd, 引导, 双系统, bilibili]
 
 话说cpu渲染可是真的不够给力
 
-![](grub和rEFInd——配置你的双系统/1564424097425.png)
+![](grub&rEFInd_config_your_hybrid_system/1564424097425.png)
 
 # 系统引导背景知识
 
@@ -66,7 +66,7 @@ tags: [grub, rEFInd, 引导, 双系统, bilibili]
   - EFI分区
   - rEFInd
 
-![引导分区](grub和rEFInd——配置你的双系统/1564425345912.png)
+![引导分区](grub&rEFInd_config_your_hybrid_system/1564425345912.png)
 
 # grub相关
 
@@ -82,7 +82,7 @@ tags: [grub, rEFInd, 引导, 双系统, bilibili]
 
 引导分区一般挂载在`/boot/efi/EFI`目录下，用来引导操作系统，rEFInd是一个第三方引导，以简洁的外观和可定制化的配置著称。
 
-![再来一次～](grub和rEFInd——配置你的双系统/rEFInd引导界面.png)
+![再来一次～](grub&rEFInd_config_your_hybrid_system/rEFInd引导界面.png)
 
 # 安装
 
