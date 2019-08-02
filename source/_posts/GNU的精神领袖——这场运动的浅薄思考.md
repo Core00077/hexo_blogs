@@ -3,7 +3,7 @@ title: GNU的精神领袖——这场运动的浅薄思考
 mathjax: false
 date: 2019-04-19 11:01:56
 tags: [gnu,自由软件,迷思]
-categories: 读书感悟
+categories: 思考感悟
 ---
 
 # 写在前面
