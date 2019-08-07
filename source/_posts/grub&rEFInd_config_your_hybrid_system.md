@@ -10,7 +10,7 @@ tags: [grub, rEFInd, 引导, 双系统, bilibili]
 
 因为大家似乎对双系统特别感兴趣，所以先做一期这个视频好啦～视频链接戳[这里](https://www.bilibili.com/video/av61364115/)
 
-![先上图再说](grub&rEFInd_config_your_hybrid_system/rEFInd引导界面.png)
+![先上图再说](grub&rEFInd_config_your_hybrid_system/rEFInd引导界面.jpg)
 
 ![b站小伙伴投票](grub&rEFInd_config_your_hybrid_system/b站小伙伴投票.png)
 
