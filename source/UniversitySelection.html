@@ -1,0 +1,1204 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>v持续更新-选校</title><link href='file://night/codeblock.dark.css' rel='stylesheet' type='text/css' /><link href='file://night/mermaid.dark.css' rel='stylesheet' type='text/css' /><link href='file://night/sourcemode.dark.css' rel='stylesheet' type='text/css' /><link href='file://quartz-milky.css' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; tab-size: 4; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:last-child { margin-bottom: 0.5rem; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+p { line-height: inherit; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus, [contenteditable="false"]:active, [contenteditable="false"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none 0s ease 0s; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; margin-top: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="flow"] svg, [lang="mermaid"] svg { max-width: 100%; height: auto; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+svg[id^="mermaidChart"] { line-height: 1em; }
+mark { background: rgb(255, 255, 0); color: rgb(0, 0, 0); }
+.md-html-inline .md-plain, .md-html-inline strong, mark .md-inline-math, mark strong { color: inherit; }
+mark .md-meta { color: rgb(0, 0, 0); opacity: 0.3 !important; }
+
+
+;
+/* CSS Document */
+
+/** code highlight */
+
+.cm-s-inner .cm-variable,
+.cm-s-inner .cm-operator,
+.cm-s-inner .cm-property {
+    color: #b8bfc6;
+}
+
+.cm-s-inner .cm-keyword {
+    color: #C88FD0;
+}
+
+.cm-s-inner .cm-tag {
+    color: #7DF46A;
+}
+
+.cm-s-inner .cm-attribute {
+    color: #7575E4;
+}
+
+.CodeMirror div.CodeMirror-cursor {
+    border-left: 1px solid #b8bfc6;
+    z-index: 3;
+}
+
+.cm-s-inner .cm-string {
+    color: #D26B6B;
+}
+
+.cm-s-inner .cm-comment,
+.cm-s-inner.cm-comment {
+    color: #DA924A;
+}
+
+.cm-s-inner .cm-header,
+.cm-s-inner .cm-def,
+.cm-s-inner.cm-header,
+.cm-s-inner.cm-def {
+    color: #8d8df0;
+}
+
+.cm-s-inner .cm-quote,
+.cm-s-inner.cm-quote {
+    color: #57ac57;
+}
+
+.cm-s-inner .cm-hr {
+    color: #d8d5d5;
+}
+
+.cm-s-inner .cm-link {
+    color: #d3d3ef;
+}
+
+.cm-s-inner .cm-negative {
+    color: #d95050;
+}
+
+.cm-s-inner .cm-positive {
+    color: #50e650;
+}
+
+.cm-s-inner .cm-string-2 {
+    color: #f50;
+}
+
+.cm-s-inner .cm-meta,
+.cm-s-inner .cm-qualifier {
+    color: #b7b3b3;
+}
+
+.cm-s-inner .cm-builtin {
+    color: #f3b3f8;
+}
+
+.cm-s-inner .cm-bracket {
+    color: #997;
+}
+
+.cm-s-inner .cm-atom,
+.cm-s-inner.cm-atom {
+    color: #84B6CB;
+}
+
+.cm-s-inner .cm-number {
+    color: #64AB8F;
+}
+
+.cm-s-inner .cm-variable {
+    color: #b8bfc6;
+}
+
+.cm-s-inner .cm-variable-2 {
+    color: #9FBAD5;
+}
+
+.cm-s-inner .cm-variable-3 {
+    color: #1cc685;
+}
+
+.CodeMirror-selectedtext,
+.CodeMirror-selected {
+    background: #4a89dc;
+    color: #fff !important;
+    text-shadow: none;
+}
+
+.CodeMirror-gutters {
+    border-right: none;
+}
+/* Flowchart variables */
+/* Sequence Diagram variables */
+/* Gantt chart variables */
+/* state colors */
+.label {
+  
+  color: #333; }
+
+.label text {
+  fill: #333; }
+
+.node rect,
+.node circle,
+.node ellipse,
+.node polygon {
+  fill: #BDD5EA;
+  stroke: #9370DB;
+  stroke-width: 1px; }
+
+.node .label {
+  text-align: center; }
+
+.node.clickable {
+  cursor: pointer; }
+
+.arrowheadPath {
+  fill: lightgrey; }
+
+.edgePath .path {
+  stroke: lightgrey;
+  stroke-width: 1.5px; }
+
+.edgeLabel {
+  background-color: #e8e8e8;
+  text-align: center; }
+
+.cluster rect {
+  fill: #6D6D65;
+  stroke: rgba(255, 255, 255, 0.25);
+  stroke-width: 1px; }
+
+.cluster text {
+  fill: #F9FFFE; }
+
+div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  
+  font-size: 12px;
+  background: #6D6D65;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100; }
+
+.actor {
+  stroke: #81B1DB;
+  fill: #BDD5EA; }
+
+text.actor {
+  fill: black;
+  stroke: none; }
+
+.actor-line {
+  stroke: lightgrey; }
+
+.messageLine0 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: lightgrey; }
+
+.messageLine1 {
+  stroke-width: 1.5;
+  stroke-dasharray: '2 2';
+  stroke: lightgrey; }
+
+#arrowhead {
+  fill: lightgrey; }
+
+.sequenceNumber {
+  fill: white; }
+
+#sequencenumber {
+  fill: lightgrey; }
+
+#crosshead path {
+  fill: lightgrey !important;
+  stroke: lightgrey !important; }
+
+.messageText {
+  fill: lightgrey;
+  stroke: none; }
+
+.labelBox {
+  stroke: #81B1DB;
+  fill: #BDD5EA; }
+
+.labelText {
+  fill: #323D47;
+  stroke: none; }
+
+.loopText {
+  fill: lightgrey;
+  stroke: none; }
+
+.loopLine {
+  stroke-width: 2;
+  stroke-dasharray: '2 2';
+  stroke: #81B1DB; }
+
+.note {
+  stroke: rgba(255, 255, 255, 0.25);
+  fill: #fff5ad; }
+
+.noteText {
+  fill: black;
+  stroke: none;
+  
+  font-size: 14px; }
+
+.activation0 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+.activation1 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+.activation2 {
+  fill: #f4f4f4;
+  stroke: #666; }
+
+/** Section styling */
+.section {
+  stroke: none;
+  opacity: 0.2; }
+
+.section0 {
+  fill: rgba(255, 255, 255, 0.3); }
+
+.section2 {
+  fill: #EAE8B9; }
+
+.section1,
+.section3 {
+  fill: white;
+  opacity: 0.2; }
+
+.sectionTitle0 {
+  fill: #F9FFFE; }
+
+.sectionTitle1 {
+  fill: #F9FFFE; }
+
+.sectionTitle2 {
+  fill: #F9FFFE; }
+
+.sectionTitle3 {
+  fill: #F9FFFE; }
+
+.sectionTitle {
+  text-anchor: start;
+  font-size: 11px;
+  text-height: 14px;
+   }
+
+/* Grid and axis */
+.grid .tick {
+  stroke: lightgrey;
+  opacity: 0.3;
+  shape-rendering: crispEdges; }
+
+.grid path {
+  stroke-width: 0; }
+
+/* Today line */
+.today {
+  fill: none;
+  stroke: #DB5757;
+  stroke-width: 2px; }
+
+/* Task styling */
+/* Default task */
+.task {
+  stroke-width: 2; }
+
+.taskText {
+  text-anchor: middle;
+   }
+
+.taskText:not([font-size]) {
+  font-size: 11px; }
+
+.taskTextOutsideRight {
+  fill: #323D47;
+  text-anchor: start;
+  font-size: 11px;
+   }
+
+.taskTextOutsideLeft {
+  fill: #323D47;
+  text-anchor: end;
+  font-size: 11px; }
+
+/* Special case clickable */
+.task.clickable {
+  cursor: pointer; }
+
+.taskText.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+.taskTextOutsideLeft.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+.taskTextOutsideRight.clickable {
+  cursor: pointer;
+  fill: #003163 !important;
+  font-weight: bold; }
+
+/* Specific task settings for the sections*/
+.taskText0,
+.taskText1,
+.taskText2,
+.taskText3 {
+  fill: #323D47; }
+
+.task0,
+.task1,
+.task2,
+.task3 {
+  fill: #BDD5EA;
+  stroke: rgba(255, 255, 255, 0.5); }
+
+.taskTextOutside0,
+.taskTextOutside2 {
+  fill: lightgrey; }
+
+.taskTextOutside1,
+.taskTextOutside3 {
+  fill: lightgrey; }
+
+/* Active task */
+.active0,
+.active1,
+.active2,
+.active3 {
+  fill: #81B1DB;
+  stroke: rgba(255, 255, 255, 0.5); }
+
+.activeText0,
+.activeText1,
+.activeText2,
+.activeText3 {
+  fill: #323D47 !important; }
+
+/* Completed task */
+.done0,
+.done1,
+.done2,
+.done3 {
+  stroke: grey;
+  fill: lightgrey;
+  stroke-width: 2; }
+
+.doneText0,
+.doneText1,
+.doneText2,
+.doneText3 {
+  fill: #323D47 !important; }
+
+/* Tasks on the critical line */
+.crit0,
+.crit1,
+.crit2,
+.crit3 {
+  stroke: #E83737;
+  fill: #E83737;
+  stroke-width: 2; }
+
+.activeCrit0,
+.activeCrit1,
+.activeCrit2,
+.activeCrit3 {
+  stroke: #E83737;
+  fill: #81B1DB;
+  stroke-width: 2; }
+
+.doneCrit0,
+.doneCrit1,
+.doneCrit2,
+.doneCrit3 {
+  stroke: #E83737;
+  fill: lightgrey;
+  stroke-width: 2;
+  cursor: pointer;
+  shape-rendering: crispEdges; }
+
+.milestone {
+  transform: rotate(45deg) scale(0.8, 0.8); }
+
+.milestoneText {
+  font-style: italic; }
+
+.doneCritText0,
+.doneCritText1,
+.doneCritText2,
+.doneCritText3 {
+  fill: #323D47 !important; }
+
+.activeCritText0,
+.activeCritText1,
+.activeCritText2,
+.activeCritText3 {
+  fill: #323D47 !important; }
+
+.titleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: #323D47;
+   }
+
+g.classGroup text {
+  fill: #9370DB;
+  stroke: none;
+  
+  font-size: 10px; }
+  g.classGroup text .title {
+    font-weight: bolder; }
+
+g.classGroup rect {
+  fill: #BDD5EA;
+  stroke: #9370DB; }
+
+g.classGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+.classLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #BDD5EA;
+  opacity: 0.5; }
+
+.classLabel .label {
+  fill: #9370DB;
+  font-size: 10px; }
+
+.relation {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+#compositionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#compositionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#aggregationStart {
+  fill: #BDD5EA;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#aggregationEnd {
+  fill: #BDD5EA;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#dependencyStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#dependencyEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#extensionStart {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+#extensionEnd {
+  fill: #9370DB;
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+.commit-id,
+.commit-msg,
+.branch-label {
+  fill: lightgrey;
+  color: lightgrey;
+   }
+
+.pieTitleText {
+  text-anchor: middle;
+  font-size: 25px;
+  fill: #eee;
+}
+
+.slice {
+   }
+
+g.stateGroup text {
+  fill: #eee;
+  stroke: none;
+  font-size: 10px;
+   }
+
+g.stateGroup circle {
+  fill: white !important;
+  stroke: white !important;
+}
+
+g.stateGroup .state-title {
+  font-weight: bolder;
+  fill: black; }
+
+g.stateGroup rect {
+  fill: #ececff;
+  stroke: #9370DB; }
+
+g.stateGroup line {
+  stroke: #9370DB;
+  stroke-width: 1; }
+
+.transition {
+  stroke: #9370DB;
+  stroke-width: 1;
+  fill: none; }
+
+.stateGroup .composit {
+  fill: #555;
+  border-bottom: 1px; }
+
+.state-note {
+  stroke: rgba(255, 255, 255, 0.25);
+  fill: #fff5ad; }
+  .state-note text {
+    fill: black;
+    stroke: none;
+    font-size: 10px; }
+
+.stateLabel .box {
+  stroke: none;
+  stroke-width: 0;
+  fill: #BDD5EA;
+  opacity: 0.5; }
+
+.stateLabel text {
+  fill: black;
+  font-size: 10px;
+  font-weight: bold;
+   }
+
+;
+/* CSS Document */
+
+/** markdown source **/
+.cm-s-typora-default .cm-header, 
+.cm-s-typora-default .cm-property
+{
+    color: #cebcca;
+}
+
+.CodeMirror.cm-s-typora-default div.CodeMirror-cursor{
+    border-left: 3px solid #b8bfc6;
+}
+
+.cm-s-typora-default .cm-comment {
+    color: #9FB1FF;
+}
+
+.cm-s-typora-default .cm-string {
+    color: #A7A7D9
+}
+
+.cm-s-typora-default .cm-atom, .cm-s-typora-default .cm-number {
+    color: #848695;
+    font-style: italic;
+}
+
+.cm-s-typora-default .cm-link {
+    color: #95B94B;
+}
+
+.cm-s-typora-default .CodeMirror-activeline-background {
+    background: rgba(51, 51, 51, 0.72);
+}
+
+.cm-s-typora-default .cm-comment, .cm-s-typora-default .cm-code {
+	color: #8aa1e1;
+}
+@include-when-export url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Roboto:300,300i,400,400i,700,700i&subset=latin-ext');
+
+:root {
+  --accent-color: #aeb1b5; /* #'s before H1-3 */
+  --background-color: white;
+  --border-color: #ddd; 
+  --code-bg-color: #f8f8f8; 
+  --font-color: #42464c;
+  --header-color: #222324;
+  --link-color: #2077b2;
+  --control-text-color: #667176;
+  --side-bar-bg-color: #fafafa;
+  --body-font: Roboto, "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --border-radius: 2px;
+  --document-horizontal-margin: 80px;
+  --document-padding-x: 10ch;
+  --font-size: 16px;
+  --h1-fontsize: 1.5rem;   /* 1,5   rem = 24px */
+  --h2-fontsize: 1.375rem; /* 1,375 rem = 22px */
+  --h3-fontsize: 1.25rem;  /* 1,25  rem = 20px */
+  --h4-fontsize: 1.125rem; /* 1,125 rem = 18px */
+  --line-height: 1.4;
+  --main-content-margin: 0 auto;
+  --main-content-max-width: 100ch;
+  --monospace-font-size: 15px;
+  --monospace-font: Inconsolata, Consolas, Menlo, "Liberation Mono", Courier, monospace;
+  --monospace-line-height: 1.4;
+  --monospace: var(--monospace-font); /* Fixes source code mode */
+  --nav-width: 200px;
+  --vertical-padding: 40px;
+}
+
+/* Narrow layout styles */
+@media (max-width: 640px) {
+  :root {
+    --document-padding-x: 4ch;
+  }
+}
+
+html {
+  font-size: var(--font-size);
+  background-color: var(--background-color);
+}
+
+html,
+body {
+  color: var(--font-color);
+  font-family: var(--body-font);
+  line-height: var(--line-height);
+}
+
+#write {
+	/* size of writing area: */
+  padding-left: var(--document-padding-x);
+  padding-right: var(--document-padding-x);
+  max-width: var(--main-content-max-width);
+  box-sizing: border-box;
+}
+
+/**
+ * ---------------------
+ * Block Elements
+ */
+
+/* yaml */
+pre.md-meta-block {
+  background-color: var(--background-color);
+  padding-bottom: .5rem;
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--border-color);
+  font-family: var(--monospace-font);
+}
+
+/* headings */
+h1, h2, h3 {
+  font-weight: 300;
+  color: var(--header-color);  
+}
+
+h1 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-size: var(--h1-fontsize);
+}
+
+h1:not(:first-child) {
+  margin-top: 3rem;
+}
+
+h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: var(--h2-fontsize);
+}
+
+h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: var(--h3-fontsize);
+}
+
+h4, h5, h6 {
+  color: var(--header-color);  
+  margin-top: 1rem;
+  margin-bottom: 0rem;
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: var(--h4-fontsize);
+}
+
+h6 {
+  color: var(--control-text-color);	
+}
+
+h1::before,
+h2::before,
+h3::before {
+  font-weight: 400;
+  text-align: right;
+  width: 5ch;
+  padding-right: 1ch;
+  margin-left: -5ch;
+  color: var(--accent-color);
+  display: inline-block;
+}
+
+h1::before {
+  content: '#';
+}
+
+h2::before {
+  content: '##';
+}
+
+h3::before {
+  content: '###';
+}
+
+h1 tt,
+h1 code {
+    font-size: inherit;
+}
+h2 tt,
+h2 code {
+    font-size: inherit;
+}
+h3 tt,
+h3 code {
+    font-size: inherit;
+}
+h4 tt,
+h4 code {
+    font-size: inherit;
+}
+h5 tt,
+h5 code {
+    font-size: inherit;
+}
+h6 tt,
+h6 code {
+    font-size: inherit;
+}
+
+/* table */
+table {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+table tr:nth-child(2n),
+thead {
+    background-color: var(--side-bar-bg-color);
+}
+
+td,
+th {
+  border-style: solid;
+  border-color: var(--border-color);
+  border-width: 1px;
+  padding: .35rem .7rem
+}
+
+li p {
+  margin: 0;
+}
+
+.task-list {
+  padding-left: 0;
+}
+
+.task-list-item {
+  padding-left: 1.5em;
+  margin-bottom: 0rem;
+}
+
+#write input[type='checkbox'] {
+  margin-top: 5px;
+}
+
+blockquote {
+  margin: 1rem 0;
+  padding-left: 2ch;
+  margin-left: .5ch;
+  position: relative;
+  overflow: hidden;
+  border-left: 2px solid var(--border-color);
+  color: var(--accent-color);
+}
+
+/* horizontal line */
+hr {
+  border: none;
+  border-bottom: 2px solid var(--border-color);
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+/**
+ * Code Fences
+ * see http:/*support.typora.io/Code-Block-Styles
+ */
+
+.cm-s-inner .CodeMirror-gutters {
+   background: var(--code-bg-color);
+}
+
+.code-tooltip {
+  box-shadow: none;
+  border-radius: var(--border-radius);
+  background-color: var(--code-bg-color);
+  border-color: var(--border-color);
+  border-style: solid;
+  border-width: 1px;
+}
+
+.code-tooltip input {
+  outline: none;
+  width: 20ch;
+}
+
+.md-fences .code-tooltip {
+  bottom: -1.8rem;
+  padding: none;
+}
+
+.md-fences.md-focus .cm-s-inner {
+  /* Remove bottom right border radius when tooltip is shown */
+  border-bottom-right-radius: 0;
+}
+
+/* code tooltip autocomplete list */
+
+.autoComplt-hint {
+  background-color: transparent !important;
+  margin: 0 !important;
+  padding: 0.125rem 0.375rem !important;
+  color: var(--text-color) !important;
+  line-height: var(--line-height) !important;
+  height: 1.4rem !important;
+}
+
+.autoComplt-hint-selected {
+  background-color: var(--link-color) !important;
+  color: var(--background-color) !important;
+}
+
+/* basic styles */
+
+.md-fences,
+code,
+tt {
+  border: 1px solid var(--border-color);
+  background-color: var(--code-bg-color);
+  font-family: var(--monospace-font);
+  font-size: var(--monospace-font-size);
+  border-radius: .25rem;
+  padding: 0 .125rem;
+  line-height: var(--monospace-line-height);
+}
+
+.md-fences {
+  margin-bottom: 18px;
+  margin-top: 15px;
+  padding: 0.2em 1em;
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
+
+a {
+  color:  var(--link-color);
+}
+
+
+/**
+ * Control UI (optional)
+ */
+
+.outline-item:hover {
+  color: var(--header-color);
+}
+
+#write div.md-toc-tooltip {
+	background-color: var(--background-color);
+}
+@import '';
+@import '';
+@import '';
+@import '';
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #2fa095;
+}
+::-webkit-scrollbar-thumb:hover {
+  border-radius: 5px;
+  background: #40e0d0;
+}
+
+:root {
+  --accented-background-color: #1e1e1e;
+  --light-header-color: #dbdbdb; /* H1-H3 */
+  --select-text-bg-color: #186a9a;
+  --accent-color: #4f525a;
+  --background-color: #101010;
+  --font-color: #808e95;
+  --header-color: #bebebe; /* H4-H6 */
+  --border-color: #232629;
+  --link-color: #5584aa; 
+  --code-bg-color: #1c1a1a;
+  --hover-bg-color: #050505; 
+  --control-text-color: var(--font-color); 
+  --side-bar-bg-color: var(--accented-background-color);
+  --control-text-hover-color: var(--header-color);
+  --item-hover-text-color: var(--header-color);
+  --item-hover-bg-color: var(--hover-bg-color); 
+  --bg-color: var(--background-color);
+  --text-color: var(--font-color);
+  --meta-content-color: var(--accent-color);
+  --md-char-color: var(--accent-color);
+  --window-border: 1px solid rgba(0,0,0,.07);
+  --active-file-bg-color: var(--hover-bg-color);
+  --main-content-max-width: none;
+}
+
+.outline-item:hover {
+  background-color: var(--hover-bg-color);
+}
+
+#write {
+  margin: 0px;
+  cursor: -webkit-image-set(url("file:////home/core/.config/Typora/themes/night/cursor.png") 1x, url("file:////home/core/.config/Typora/themes/night/cursor@2x.png") 2x) 8 8, auto;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--light-header-color);
+}
+
+mark {
+  background: #b8b80a
+}
+
+table tr:nth-child(2n),
+thead {
+    background-color: #141313;
+}
+
+sup.md-footnote {
+  background-color: var(--code-bg-color);
+  color: var(--font-color);
+}
+
+/* right click menu */
+.context-menu {
+  background-color: #141313;
+}
+
+.context-menu.dropdown-menu .divider {
+  background-color: #232629;
+}
+
+/* focus mode */
+.on-focus-mode .md-end-block:not(.md-focus):not(.md-focus-container) * {
+  color: #4f525a !important;
+}
+
+.on-focus-mode .md-end-block:not(.md-focus) img,
+.on-focus-mode .md-task-list-item:not(.md-focus-container)>input {
+  opacity: #4f525a !important;
+}
+
+.on-focus-mode li[cid]:not(.md-focus-container){
+  color: #4f525a;
+}
+
+.on-focus-mode .md-fences.md-focus .CodeMirror-code>*:not(.CodeMirror-activeline) *,
+.on-focus-mode .CodeMirror.cm-s-inner:not(.CodeMirror-focused) * {
+  color: #4f525a !important;
+}
+
+.on-focus-mode .md-focus,
+.on-focus-mode .md-focus-container {
+  color: var(--light-header-color);
+}
+
+.on-focus-mode #typora-source .CodeMirror-code>*:not(.CodeMirror-activeline) * {
+  color: #4f525a !important;
+}
+.task-list-item {line-height: 2}
+.task-list-item input { width: 1.25rem; height: 1.25rem; display: block; -webkit-appearance: initial; left: -18px; }
+.task-list-item input:focus { outline: none; box-shadow: none; }
+.task-list-item input::before { border: 1px solid #808e95; border-radius: 1.2rem; width: 1.2rem; height: 1.2rem; background: transparent; content: " "; transition: background-color 200ms ease-in-out; display: block; }
+.task-list-item input:checked::before, .task-list-item input[checked]::before { background: #dbdbdb; border-width: 1px; display: inline-block; transition: background-color 200ms ease-in-out; }
+.task-list-item input:checked::after, .task-list-item input[checked]::after { opacity: 1; }
+.task-list-item input::after { transition: opacity 0.05s ease-in-out; transform: rotate(-45deg); position: absolute; top: 0.325rem; left: 0.28125rem; width: 0.6375rem; height: 0.4rem; border-width: 0px 0px 3px 3px; border-bottom-style: solid; border-left-style: solid; border-bottom-color: #808e95; border-left-color: #808e95; border-image: initial; border-top-style: initial; border-top-color: initial; border-right-style: initial; border-right-color: initial; content: " "; opacity: 0; }
+.task-list-done { text-decoration: line-through; color: #808e9580; }
+
+
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export' >
+<div  id='write'  class = 'is-node'><h1><a name="选校决定" class="md-header-anchor"></a><span>选校决定</span></h1><p><span>以下表格除特殊申明外，能申请奖学金的尽量申请。</span></p><h2><a name="申请" class="md-header-anchor"></a><span>申请</span></h2><figure><table><thead><tr><th><span>？</span></th><th><span>奖学金</span></th><th style='text-align: ---- ;' ><span>专业</span></th><th><span>分类</span></th><th><span>学校全称</span></th><th><span>申请项目</span></th><th><span>项目链接</span></th><th><span>申请链接</span></th><th style='text-align: ---- ;' ><span>DDL(奖学金/最终)</span></th><th><span>标化要求</span></th><th><span>时间</span></th></tr></thead><tbody><tr><td>&nbsp;</td><td>&nbsp;</td><td style='text-align: ---- ;' >&nbsp;</td><td><span>High reach</span></td><td><span>University of Southern California</span></td><td><span>MS in Computer Science</span></td><td><a href='https://viterbigradadmission.usc.edu/programs/masters/msprograms/computer-science/ms-computer-science/' target='_blank' class='url'>https://viterbigradadmission.usc.edu/programs/masters/msprograms/computer-science/ms-computer-science/</a></td><td><a href='https://gradadm.usc.edu/lightboxes/international-students-about-the-usc-application/' target='_blank' class='url'>https://gradadm.usc.edu/lightboxes/international-students-about-the-usc-application/</a></td><td style='text-align: ---- ;' ><span>12.15/1.15</span></td><td><span>T:90 G: 无</span></td><td><span>12.15</span></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td style='text-align: ---- ;' >&nbsp;</td><td><span>High reach</span></td><td><span>University of Michigan</span></td><td><span>MS in Computer Science and Engineering</span></td><td><a href='https://cse.engin.umich.edu/academics/graduate/admissions/' target='_blank' class='url'>https://cse.engin.umich.edu/academics/graduate/admissions/</a></td><td><a href='https://www.applyweb.com/cgi-bin/app?s=umgrad' target='_blank' class='url'>https://www.applyweb.com/cgi-bin/app?s=umgrad</a></td><td style='text-align: ---- ;' ><span>/1.15</span></td><td><span>T:100 (平均) G:158/ 166/4 (平均)</span></td><td><span>1.15</span></td></tr><tr><td><span>✕</span></td><td>&nbsp;</td><td style='text-align: ---- ;' >&nbsp;</td><td><span>High reach</span></td><td><span>Rice University</span></td><td><span>MCS</span></td><td><a href='https://www.cs.rice.edu/professional-master-mcs' target='_blank' class='url'>https://www.cs.rice.edu/professional-master-mcs</a></td><td><a href='https://gradapply.rice.edu/' target='_blank' class='url'>https://gradapply.rice.edu/</a></td><td style='text-align: ---- ;' ><span>/1.30</span></td><td><span>T:90 G:无</span></td><td><span>1.15</span></td></tr><tr><td><span>✕</span></td><td>&nbsp;</td><td style='text-align: ---- ;' >&nbsp;</td><td><span>Reach</span></td><td><span>University of Virginia</span></td><td><span>MS in Computer Science</span></td><td><a href='https://engineering.virginia.edu/departments/computer-science/academics/admissions/graduate-admission' target='_blank' class='url'>https://engineering.virginia.edu/departments/computer-science/academics/admissions/graduate-admission</a></td><td><a href='https://applycentral.virginia.edu/apply/' target='_blank' class='url'>https://applycentral.virginia.edu/apply/</a></td><td style='text-align: ---- ;' ><span>12.15/4.1</span></td><td><span>T:90 G:156/ 160/ 3.5(平均)</span></td><td><span>1.15</span></td></tr><tr><td><span>✓</span></td><td>&nbsp;</td><td style='text-align: ---- ;' ><span>CS</span></td><td><span>Reach</span></td><td><span>Georgetown University</span></td><td><span>MS in CS</span></td><td><a href='https://grad.georgetown.edu/computer-science/#' target='_blank' class='url'>https://grad.georgetown.edu/computer-science/#</a></td><td><a href='https://gradapply.georgetown.edu/account/login' target='_blank' class='url'>https://gradapply.georgetown.edu/account/login</a></td><td style='text-align: ---- ;' ><span>1.15/3.1</span></td><td><span>T:80 G:无</span></td><td><span>1.15</span></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td style='text-align: ---- ;' >&nbsp;</td><td><span>Reach</span></td><td><span>University of California, Irvine</span></td><td><span>MCS</span></td><td><a href='https://mcs.ics.uci.edu/' target='_blank' class='url'>https://mcs.ics.uci.edu/</a></td><td><a href='https://apply.grad.uci.edu/apply/' target='_blank' class='url'>https://apply.grad.uci.edu/apply/</a></td><td style='text-align: ---- ;' ><span>/12.15</span></td><td><span>T:80 G:无</span></td><td><span>12.15</span></td></tr><tr><td><span>✕</span></td><td>&nbsp;</td><td style='text-align: ---- ;' >&nbsp;</td><td><span>Reach</span></td><td><span>Dartmouth College</span></td><td><span>MS in CS</span></td><td><a href='https://web.cs.dartmouth.edu/graduate/ms-programs' target='_blank' class='url'>https://web.cs.dartmouth.edu/graduate/ms-programs</a></td><td><a href='https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantLogin.asp?id=dart-grad' target='_blank' class='url'>https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantLogin.asp?id=dart-grad</a></td><td style='text-align: ---- ;' ><span>/12.15</span></td><td><span>T:无  G:无</span></td><td><span>12.15</span></td></tr><tr><td><span>✕</span></td><td>&nbsp;</td><td style='text-align: ---- ;' >&nbsp;</td><td><span>Reach</span></td><td><span>Washington University in St. Louis</span></td><td><span>MS in CS</span></td><td><a href='https://engineering.wustl.edu/prospective-students/graduate-admissions/Pages/application-checklist.aspx' target='_blank' class='url'>https://engineering.wustl.edu/prospective-students/graduate-admissions/Pages/application-checklist.aspx</a></td><td><a href='https://www.applyweb.com/cgi-bin/applymenu?instcode=wustl' target='_blank' class='url'>https://www.applyweb.com/cgi-bin/applymenu?instcode=wustl</a></td><td style='text-align: ---- ;' ><span>/3.1</span></td><td><span>T:90(推荐) G:无</span></td><td><span>1.15</span></td></tr><tr><td><span>✓</span></td><td><span>$6000/Y</span></td><td style='text-align: ---- ;' ><span>CE</span></td><td><span>Reach</span></td><td><span>New York University</span></td><td><span>CS, MS</span></td><td><a href='https://engineering.nyu.edu/academics/programs/computer-science-ms' target='_blank' class='url'>https://engineering.nyu.edu/academics/programs/computer-science-ms</a></td><td><a href='https://apply.engineering.nyu.edu/apply/' target='_blank' class='url'>https://apply.engineering.nyu.edu/apply/</a></td><td style='text-align: ---- ;' ><span>/3.1</span></td><td><span>T:90 G:无</span></td><td><span>12.15</span></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td style='text-align: ---- ;' >&nbsp;</td><td><span>Match</span></td><td><span>Northeastern University</span></td><td><span>MS in Information Systems</span></td><td><a href='https://www.northeastern.edu/graduate/program/master-of-science-in-information-systems-silicon-valley-17042/' target='_blank' class='url'>https://www.northeastern.edu/graduate/program/master-of-science-in-information-systems-silicon-valley-17042/</a></td><td><a href='https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantConnectLogin.asp?id=neu-grad' target='_blank' class='url'>https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantConnectLogin.asp?id=neu-grad</a></td><td style='text-align: ---- ;' ><span>/4.15</span></td><td><span>没有找到</span></td><td><span>1.15</span></td></tr><tr><td><span>✓</span></td><td>&nbsp;</td><td style='text-align: ---- ;' ><span>Analytics</span></td><td><span>Match</span></td><td><span>Northeastern University</span></td><td><span>MS in CS</span></td><td><a href='https://www.northeastern.edu/graduate/program/master-of-science-in-computer-science-silicon-valley-14367/' target='_blank' class='url'>https://www.northeastern.edu/graduate/program/master-of-science-in-computer-science-silicon-valley-14367/</a></td><td><a href='https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantConnectLogin.asp?id=neu-grad' target='_blank' class='url'>https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantConnectLogin.asp?id=neu-grad</a></td><td style='text-align: ---- ;' ><span>/4.15</span></td><td><span>没有找到</span></td><td><span>12.15</span></td></tr><tr><td><span>✓</span></td><td>&nbsp;</td><td style='text-align: ---- ;' ><span>CS</span></td><td><span>Match</span></td><td><span>The George Washington University</span></td><td><span>MS in CS</span></td><td><a href='https://www.programs.gwu.edu/graduate/computer-science?searched=y' target='_blank' class='url'>https://www.programs.gwu.edu/graduate/computer-science?searched=y</a></td><td><a href='https://gw.force.com/TX_SiteLogin?startURL=%2FTargetX_Portal__PB' target='_blank' class='url'>https://gw.force.com/TX_SiteLogin?startURL=%2FTargetX_Portal__PB</a></td><td style='text-align: ---- ;' ><span>/1.15</span></td><td><span>T:80/ 100(推荐) G:无</span></td><td><span>1.15</span></td></tr><tr><td><span>✓</span></td><td><span>-20%</span></td><td style='text-align: ---- ;' ><span>CE</span></td><td><span>Match</span></td><td><span>Syracuse University</span></td><td><span>MS in CS</span></td><td><a href='https://eng-cs.syr.edu/program/computer-science/?degree=masters_program' target='_blank' class='url'>https://eng-cs.syr.edu/program/computer-science/?degree=masters_program</a></td><td><a href='https://www.applyweb.com/cgi-bin/app?s=syr' target='_blank' class='url'>https://www.applyweb.com/cgi-bin/app?s=syr</a></td><td style='text-align: ---- ;' ><span>/6.1</span></td><td><span>T:无 G:无</span></td><td><span>1.15</span></td></tr><tr><td><span>✓</span></td><td><span>$20000</span></td><td style='text-align: ---- ;' ><span>CS</span></td><td><span>Safty</span></td><td><span>Stevens Institute of Technology</span></td><td><span>CS, MS</span></td><td><a href='https://www.stevens.edu/schaefer-school-engineering-science/departments/computer-science/graduate-programs/computer-science-masters-program' target='_blank' class='url'>https://www.stevens.edu/schaefer-school-engineering-science/departments/computer-science/graduate-programs/computer-science-masters-program</a></td><td><a href='https://gradadmissions.stevens.edu/apply/' target='_blank' class='url'>https://gradadmissions.stevens.edu/apply/</a></td><td style='text-align: ---- ;' ><span>/4.15</span></td><td><span>T:无  G:无</span></td><td><span>1.15</span></td></tr></tbody></table></figure><h1><a name="申请分类统计" class="md-header-anchor"></a><span>申请分类统计</span></h1><figure><table><thead><tr><th><span>分类</span></th><th><span>概率</span></th><th><span>数量(委托/自主)</span></th></tr></thead><tbody><tr><td><span>High reach</span></td><td><span>10%～20%</span></td><td><span>3/4</span></td></tr><tr><td><span>Reach</span></td><td><span>20%~30%</span></td><td><span>4/6</span></td></tr><tr><td><span>Match</span></td><td><span>50%</span></td><td><span>2/4</span></td></tr><tr><td><span>Safety</span></td><td><span>80%</span></td><td><span>1/1</span></td></tr></tbody></table></figure><p>&nbsp;</p><hr /><ul><li><p><span>方便起见，就只列出我想去的学校。</span></p></li><li><p><span>主要还是比较希望去加州，因为我还没法确定我未来是做科研还是就业。</span></p><ul><li><span>做科研肯定学术氛围比较重要，无所谓去哪；</span></li><li><span>但如果是就业的话肯定加州这种互联网氛围足的地方。</span></li><li><span>保险起见，我选的学校地理上倾向于加州吧。</span></li></ul></li><li><p><span>另外经过重修，我的GPA有88.55，但学校这边打给我的成绩单并没有更新，我近期会找学校联络，这周内能确定最终GPA。</span></p></li><li><p><span>每一类里的大学按</span><strong><span>意愿度</span></strong><span>排名，分先后。</span></p></li><li><p><span>另外DDL快到的先申，DDL晚一些并且超出来的学校我可以自己申请。</span></p></li></ul><h1><a name="high-reach" class="md-header-anchor"></a><span>High reach</span></h1><h2><a name="特别想去-usc" class="md-header-anchor"></a><span>特别想去-USC</span></h2><ul><li><p><span>CS general</span></p><ul><li><span>能CS当然好啦，还在加州，方便搞到工作经历</span></li></ul></li><li><p><span>CS data science</span></p><ul><li><span>和上面的二选一吧，虽然这是我更期望的方向，不过考虑到竞争力不足，选一个更容易中的更稳妥，如果能申俩更好。</span></li></ul></li></ul><h2><a name="愿意去-uva" class="md-header-anchor"></a><span>愿意去-UVA</span></h2><p><span>CS专业，对信息安全加密专业不太感兴趣，学校感觉很不错，冲一冲。</span></p><h2><a name="愿意去-umich" class="md-header-anchor"></a><span>愿意去-Umich</span></h2><p><span>CSE项目AI专业，人多要是中不了我也不知道咋整hhh，试试吧先。</span></p><h2><a name="愿意去-rice" class="md-header-anchor"></a><span>愿意去-Rice</span></h2><p><span>不是太喜欢1.5年制，不过反正都是扎堆，DDL不急的话我可以自己投试一试。</span></p><h1><a name="reach" class="md-header-anchor"></a><span>Reach</span></h1><h2><a name="特别想去-uci" class="md-header-anchor"></a><span>特别想去-UCI</span></h2><p><span>在加州，看排名感觉不错，选CS。</span></p><h2><a name="特别想去-dartmouth" class="md-header-anchor"></a><span>特别想去-Dartmouth</span></h2><p><span>有奖学金，课程设计可以，官网上只看到了CS，选CS。</span></p><h2><a name="愿意去-washington-university-in-st-louis" class="md-header-anchor"></a><span>愿意去-Washington University in St. Louis</span></h2><p><span>学校挺好的，而且据说生活费不算高昂。</span></p><h2><a name="愿意去-gtu" class="md-header-anchor"></a><span>愿意去-GTU</span></h2><p><span>我高中同学在这儿读法学，可以的话去也挺好的，CS。</span></p><h2><a name="愿意去-nyu-cs" class="md-header-anchor"></a><span>愿意去-NYU-CS</span></h2><p><span>CS，冲冲冲，排在略后面主要是因为费用高。</span></p><h2><a name="不想去-vanderbilt-university" class="md-header-anchor"></a><span>不想去-Vanderbilt University</span></h2><p><span>感觉排名不太高，地理位置一般，了解的不太多。</span></p><h1><a name="match" class="md-header-anchor"></a><span>Match</span></h1><p><span>全都要。</span></p><h2><a name="特别想去-neu" class="md-header-anchor"></a><span>特别想去-NEU</span></h2><p><span>我看推荐的是information system，我更想申硅谷的CS，相对来讲这个就是上完学就就业的选项，硅谷也能提供更好的就业机会，不过不知道这样的话还算不算Match，【特别想去】是指CS，如果是硅谷的info system的话那就是【愿意去】。</span></p><h2><a name="愿意去-nyu-stem" class="md-header-anchor"></a><span>愿意去-NYU-STEM</span></h2><p><span>选System方向吧，学校名气大，就是生活费贵。</span></p><h2><a name="愿意去-gwu" class="md-header-anchor"></a><span>愿意去-GWU</span></h2><p><span>CS，感觉学费比较贵，但是学校环境很不错。</span></p><h2><a name="愿意去-syracuse" class="md-header-anchor"></a><span>愿意去-Syracuse</span></h2><p><span>比较靠后主要是听说排名不太高，但还是申一下比较好。</span></p><h1><a name="safty" class="md-header-anchor"></a><span>Safty</span></h1><h2><a name="愿意去-stevens" class="md-header-anchor"></a><span>愿意去-Stevens</span></h2><p><span>保底，选。</span></p><h2><a name="不愿意去-illinois" class="md-header-anchor"></a><span>不愿意去-Illinois</span></h2><p><span>保的相当底，稳，不过如果ddl不是很靠前我觉得可以自己交文书申请，主要是排名太靠后，感觉不如gap。</span></p></div>
+</body>
+</html>
