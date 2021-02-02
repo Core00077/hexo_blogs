@@ -20,18 +20,17 @@ cache:
 # outside theme directory in root `source/_data`, set
 # `styles: source/_data/styles.styl`
 #custom_file_path:
-  # Default paths: layout/_custom/*
-  #head: source/_data/head.swig
-  #header: source/_data/header.swig
-  #sidebar: source/_data/sidebar.swig
+# Default paths: layout/_custom/*
+#head: source/_data/head.swig
+#header: source/_data/header.swig
+#sidebar: source/_data/sidebar.swig
 
-  # Default path: source/css/_variables/custom.styl
-  #variables: source/_data/variables.styl
-  # Default path: source/css/_mixins/custom.styl
-  #mixins: source/_data/mixins.styl
-  # Default path: source/css/_custom/custom.styl
-  #styles: source/_data/styles.styl
-
+# Default path: source/css/_variables/custom.styl
+#variables: source/_data/variables.styl
+# Default path: source/css/_mixins/custom.styl
+#mixins: source/_data/mixins.styl
+# Default path: source/css/_custom/custom.styl
+#styles: source/_data/styles.styl
 
 # ---------------------------------------------------------------
 # Site Information Settings
@@ -92,7 +91,7 @@ footer:
   # http://www.miitbeian.gov.cn
   beian:
     enable: true
-    icp: 鄂ICP备17023069号
+    icp: 鄂ICP备17023069号-2
 
   # -------------------------------------------------------------
   # Any custom text can be defined here.
@@ -115,7 +114,6 @@ github_banner:
   enable: false
   permalink: https://github.com/Core00077
   title: Follow me on GitHub
-
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -158,7 +156,6 @@ exturl: false
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: true
 
-
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
@@ -186,7 +183,6 @@ menu_settings:
   icons: true
   badges: true
 
-
 # ---------------------------------------------------------------
 # Scheme Settings
 # ---------------------------------------------------------------
@@ -196,7 +192,6 @@ menu_settings:
 #scheme: Mist
 #scheme: Pisces
 scheme: Gemini
-
 
 # ---------------------------------------------------------------
 # Sidebar Settings
@@ -238,7 +233,7 @@ links_layout: block
 #links_layout: inline
 links:
   #Title: http://example.com
-  
+
   Ewen-ZY拐叔博客: https://ewen-zy.github.io
   某知名深度学习大佬Bboy: https://blog.csdn.net/weixin_43968778
   暴躁老弟: https://wrobezin.github.io
@@ -410,7 +405,6 @@ post_edit:
   url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name # Link for view source.
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name # Link for fork & edit.
 
-
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # ---------------------------------------------------------------
@@ -452,7 +446,6 @@ tagcloud:
   start: "rgba(0,86,216,0.2)" # start color (hex, rgba, hsla or color keywords)
   end: "rgba(0,86,216,0.7)" # end color (hex, rgba, hsla or color keywords)
   amount: 0 # amount of tags, chage it if you have more than 200 tags
-
 
 # ---------------------------------------------------------------
 # Font Settings. Introduced in NexT v5.0.1.
@@ -507,7 +500,6 @@ font:
     external: true
     family:
     size:
-
 
 # ---------------------------------------------------------------
 # Third Party Services Settings
@@ -667,11 +659,11 @@ gitment:
 # Demo: https://gitalk.github.io
 gitalk:
   enable: false
-  github_id:  # Github repo owner
-  repo:  # Repository name to store issues
-  client_id:  # Github Application Client ID
-  client_secret:  # Github Application Client Secret
-  admin_user:  # GitHub repo owner and collaborators, only these guys can initialize github issues
+  github_id: # Github repo owner
+  repo: # Repository name to store issues
+  client_id: # Github Application Client ID
+  client_secret: # Github Application Client Secret
+  admin_user: # GitHub repo owner and collaborators, only these guys can initialize github issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
@@ -687,7 +679,7 @@ shareJS:
   enable: true
 # AddThis Share, See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
-add_this_id: 
+add_this_id:
 
 # Likely Share
 # See: https://ilyabirman.net/projects/likely/
@@ -748,36 +740,36 @@ needmoreshare2:
 # ---------------------------------------------------------------
 # Facebook SDK Support
 facebook_sdk:
-  enable:       false
-  app_id:       #<app_id>
-  fb_admin:     #<user_id>
-  like_button:  #true
-  webmaster:    #true
+  enable: false
+  app_id: #<app_id>
+  fb_admin: #<user_id>
+  like_button: #true
+  webmaster: #true
 
 # Facebook comments plugin
 # This plugin depends on Facebook SDK.
 # If facebook_sdk.enable is false, Facebook comments plugin is unavailable.
 facebook_comments_plugin:
-  enable:       false
-  num_of_posts: 10    # min posts num is 1
-  width:        100%  # default width is 550px
-  scheme:       light # default scheme is light (light or dark)
+  enable: false
+  num_of_posts: 10 # min posts num is 1
+  width: 100% # default width is 550px
+  scheme: light # default scheme is light (light or dark)
 
 # VKontakte API Support
 # To get your AppID visit https://vk.com/editapp?act=create
 vkontakte_api:
-  enable:       false
-  app_id:       #<app_id>
-  like:         true
-  comments:     true
+  enable: false
+  app_id: #<app_id>
+  like: true
+  comments: true
   num_of_posts: 10
 
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
 rating:
   enable: false
-  id:     #<app_id>
-  color:  fc6423
+  id: #<app_id>
+  color: fc6423
 # ---------------------------------------------------------------
 
 # Show number of visitors to each article.
@@ -938,7 +930,6 @@ mermaid:
   cdn: //cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
   #cdn: //cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js
 
-
 # ---------------------------------------------------------------
 # Animation Settings
 # ---------------------------------------------------------------
@@ -1014,7 +1005,6 @@ canvas_ribbon:
   size: 300
   alpha: 0.6
   zIndex: -1
-
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS
